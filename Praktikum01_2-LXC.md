@@ -1,64 +1,37 @@
-Membuat container
-Konfigurasi file source list
+[**1. Membuat Container**]
 
-kemudian update dan upgrade
-
-Install lxc (sudo apt-get install lxc lxctl lxc-templates net-tools)
-
-
-Membuat container dan menjalankan
-
-
-Membuat dua container, menjalankan, dan memberhentikan
-
-
-
-Praktikum
-
-Setting ip static vm
-
-
-Check ip menggunakan ifconfig
-
-
-berhasil
-ip : 192.168.100.10/24
-gateway: 192.168.100.1
-
-Membuat 2 buah container ubuntu versi xenial dan bionic
-
-
-Menjalankan dan install nginx PHP 5
-ubuntu_php5.6:
-ip: 10.0.3.102/24
-gateway: 10.0.3.102
-
-Menginstall nginx dan memperkenalkan ke host
-
-Membuat directory dan memberi index.html
-
-Hasil 200 dari kontainer PHP 5.6
-
-Hasil 200 berhasil dari vm
-
-Menjalankan dan install nginx PHP 7
-ubuntu_php7.4
-ip: 10.0.3.103/24
-gateway: 10.0.3.101
+1. Install lxc (sudo apt-get install lxc lxctl lxc-templates net-tools -y)
+2. Mengubah ip dan setting ke static
+	a. Ubah /etc/netplan/00-installer-config.yaml
+	b. Kemudian restart network-nya
+	c. Check ip-nya dengan ifconfig
+3.  Buat 2 kontainer untuk app berbasis php
 	
-Hasil 200 dari kontainer PHP 7.4
-
-Hasil 200 dari vm
-Membuat VM dan test dengan cur
-
-Berhasil 200 di VM
-
-Menjadikan localhost di windows
-
-
-
-
-
-
-
-
+	a. PHP 5
+		i. Ubah IP dan dijadikan static
+		ii. Buat file config di (/etc/nginx/sites-available)
+		iii. Kemudian buat symlink di (/etc/nginx/sites-enable)
+		iv. Buat juga folder dan html file
+		v. Masukkan ip server di hosts file
+		vi. Restart dan cek respon server
+	b. PHP 7
+		i. Ubah IP dan dijadikan static
+		ii. Buat file config di (/etc/nginx/sites-available)
+		iii. Kemudian buat symlink di (/etc/nginx/sites-enable)
+		iv. Buat juga folder dan html file
+		v. Masukkan ip server di hosts file
+		vi. Restart dan cek respon server
+4. Setup vm host ke kontainer
+	a. Keluar dari kontainer dan cek ip kontainer
+	b. Masukkan semua ip container di hosts file vm
+	c. Cek ip dengan ping
+5. Setup vm host ke windows
+	a. Membuat file config server di vm host 
+	b. Menambahkan ip kontainer ke hosts file vm
+	c. Check respon semua kontainer
+	d. Menambahkan vm host ip ke hosts file windows
+	e. Check di web browser windows
+6. [opsional] VM sebagai home page
+	a. Membuat file dan folder html di vm host
+	b. Restart nginx dan cek respon
+	c. Cek kontainer dan vm host di web browser windows
