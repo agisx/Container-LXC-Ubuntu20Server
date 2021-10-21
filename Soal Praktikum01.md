@@ -59,8 +59,14 @@
   <br>
   <li>Analisa</li>
   <ul>  
-    <li>Mengapa untuk kebutuhan php5.6 tidak bisa menggunakan ubuntu 16.04, sehingga perlu diganti os ke debian 9?</li>
-    <li>Kenapa harus menggunakan virtualisasi LXC pada skema website yang akan didevelop?</li>
-    <li>Apa yang dimaksud dengan proxy server? kenapa vm.local bisa kita anggap sebagai proxy server?</li> 
+    <li><strong>Mengapa untuk kebutuhan php5.6 tidak bisa menggunakan ubuntu 16.04, sehingga perlu diganti os ke debian 9?</strong></li>
+    Ubuntu 16.04 telah memasuki EoSS dimana telah berakhir standart support sedangkan debian 9 akan berakhir pada tahun 2022. Ubuntu 16.04 akan menjadi versi berbayar dalam program ESM(Extended Security Maintenance
+) oleh ubuntu. Sedangkan paket software ubuntu 16.04 mustahil untuk dikembangkan, maka dari itu akan dijadikan software berbayar. 
+  <br>
+    <li><strong>Kenapa harus menggunakan virtualisasi LXC pada skema website yang akan didevelop?</strong></li>
+    Agar dapat membagi-bagi pelayanan ke beberapa sistem operasi dengan kelebihan os yang berbeda-beda. Maka dari itu aplikasi dapat berjalan secara enkapsulasi atau terbungkus sesuai tujuan aplikasi.
+  <br>
+    <li><strong>Apa yang dimaksud dengan proxy server? kenapa vm.local bisa kita anggap sebagai proxy server?</strong></li> 
+    Proxy server adalah suatu sistem untuk mengakses suatu jaringan menggunakan ip proxy server. vm.local dapat dikatakan proxy server karena vm.local hanya sebagai jembatan untuk dilanjutkan ke app kontainernya. Jadi kita mengakses kontainer sebagai vm.local.
   </ul>
 </ol>
