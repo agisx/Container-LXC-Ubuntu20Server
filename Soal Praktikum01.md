@@ -1,12 +1,9 @@
 <ol type="1">  
   <li>Rename ubuntu_php5.6</li>
-  <img src="https://user-images.githubusercontent.com/44074353/138205271-01a04b09-072b-41b6-8652-9465669b8bf7.png" alt="">
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/Soal%20Praktikum01/1.1.%20Rename%20Container%20Tanpa%20Clone.PNG?raw=true" alt="">
   <br>
   <ol type="a">  
-    <li>cd /var/lib/lxc/[nama kontainer]</li>
-    <li>nano config</li>
-    <li>add lxc.start.auto = 1 and save</li>
-    <li>restart systemctl restart lxc</li>
+    <li>command lxc-copy -R -n ubuntu_php5.6 -N ubuntu_landing</li>
   </ol>
   <br>
   <li>Install lxc debian 9</li>
