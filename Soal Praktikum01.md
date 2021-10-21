@@ -70,3 +70,22 @@
     Proxy server adalah suatu sistem untuk mengakses suatu jaringan menggunakan ip proxy server. vm.local dapat dikatakan proxy server karena vm.local hanya sebagai jembatan untuk dilanjutkan ke app kontainernya. Jadi kita mengakses kontainer sebagai vm.local.
   </ul>
 </ol>
+<table>
+  <caption>Anggota Kelompok</caption>
+  <thead>
+    <tr>
+      <th>Nama</th>
+      <th>NIM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Agi Lobita Japtara Martadinata</td>
+      <td>1202190031</td>
+    </tr>
+    <tr>
+      <td>Dewa Nusantara Murdoko Putra</td>
+      <td>1202190053</td>
+    </tr>
+  </tbody>
+</table>
