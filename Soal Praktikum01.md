@@ -37,7 +37,7 @@
   <ol type="a">  
     <li>Create a config file</li>
     <li>Create a symlink in sites-enabled</li>
-    <li>Create a root page dan index.html folder</li>
+    <li>Create a root page and index.html folder</li>
     <li>Add server in hosts file</li>
     <li>Check it with curl</li>
   </ol>
