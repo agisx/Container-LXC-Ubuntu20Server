@@ -5,7 +5,7 @@ Ansible is an open source IT automation engine that automates provisioning, conf
 <br>
 <br>
 2. Python
-Didalam tugas ini, Python sendiri digunakan untuk mengeksekusi skrip YAML. Dapat digunakan untuk membaca skrip dengan teknik group atau syntax python pada umumnya.
+In this assignment, Python itself can be used for execute the script of YAML, also it can be used for reading the script with the group technique or phyton syntax in general.
 <br>
 <br>
 3. Lynx 
