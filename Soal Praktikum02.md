@@ -41,12 +41,19 @@ Lynx is a terminal-based web browser for all Linux distributions. -
   <ol>
     <h2>Laravel 8 sebagai landing page</h2>
     <li>Membuat file ansible, contoh deploy-landing-app.yml</li>
+    <ol type="a">
+      <li></li>
+    </ol>
     img
     <li>Mencari repository php 7, ppa:ondrej/php</li>
     
   </ol>
   <ol>
     <h2>Wordpress sebagai blog</h2>
+    <li>Membuat file ansible, contoh deploy-blog-app.yml</li>
+    <ol type="a">
+      <li></li>
+    </ol>
     <li></li>
     
   </ol>
