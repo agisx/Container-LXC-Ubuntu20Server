@@ -1,3 +1,9 @@
+<h4>Nama : DEWA NUSANTARA MURDOKO PUTRA</h4>
+<h4>NIM  : 1202190053</h4>
+
+<h4>Nama : Agi Lobita J.M</h4>
+<h4>NIM  : 1202190031</h4>
+
 <h1>Ansbile</h1>
 <ol>
   <li>Membuat lxc baru dengan versi folcan dengan setup yang sama, yaitu lxc php7 dan lxc landing</li>
