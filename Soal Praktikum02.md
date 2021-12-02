@@ -90,6 +90,8 @@
       <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/Soal%20Praktikum02/2.%20Wp%20template.PNG">
       <li>Restart php</li>
       <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/Soal%20Praktikum02/5.%20Restart%20PHP.PNG?raw=true"> 
+      <li>Config db untuk blog</li>
+      <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/Soal%20Praktikum02/2.5%20db%20config%20for%20blog.PNG?raw=true"> 
     </ol>
     <li>Run oh yeah</li> 
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/Soal%20Praktikum02/2.3%20run%20blog.PNG?raw=true">
