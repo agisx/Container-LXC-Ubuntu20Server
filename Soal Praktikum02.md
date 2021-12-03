@@ -1,7 +1,9 @@
-<h4>Nama : Dewa Nusantara MP
-           Agi Lobita J.M</h4>
-<h4>NIM  : 1202190053
-           1202190031</h4>
+<h4>Nama : Dewa Nusantara MP</h4>
+<h4>NIM  : 1202190053</h4>
+<h4>Nama : Agi Lobita J.M</h4>
+<h4>NIM  : 1202190031</h4>
+           
+<h3><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/Soal%20Praktikum02/ansible">Ansible link github</a><h3>
 
 <h1>Ansbile</h1>
 <ol>
