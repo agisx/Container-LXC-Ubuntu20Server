@@ -1,0 +1,110 @@
+---
+- name: delete apt chache
+  become: yes
+  become_user: root
+  become_method: su
+  command: rm -vf /var/lib/apt/lists/*
+
+- name: install requirement dpkg to install php7
+  become: yes
+  become_user: root
+  become_method: su
+  apt: name={{ item }} state=latest update_cache=true
+  with_items:
+    - ca-certificates
+    - apt-transport-https
+    - wget
+    - curl
+    - python-apt
+    - software-properties-common
+    - git
+    - composer
+
+- name: Add Php Repository
+  apt_repository:
+      validate_certs: no
+      repo: 'ppa:ondrej/php'
+      state: present
+
+- name: Add key
+  apt_key:
+    url: https://packages.sury.org/php/apt.gpg
+    state: present
+
+- name: Add Php Repository
+  apt_repository:
+      repo: "deb https://packages.sury.org/php/ stretch main"
+      state: present
+      filename: php.list
+      update_cache: true
+
+- name: install nginx php7
+  become: yes
+  become_user: root
+  become_method: su
+  apt: name={{ item }} state=latest update_cache=true
+  with_items:
+    - nginx
+    - nginx-extras
+    - php7.4
+    - php7.4-fpm
+    - php7.4-common
+    - php7.4-cli
+    - php7.4-curl
+    - php7.4-mbstring
+    - php7.4-mysqlnd
+    - php7.4-xml
+
+- name: Git clone repo laravel
+  become: yes
+  git:
+    repo: '{{ git_url }}'
+    dest: "{{ destdir }}"
+
+- name: Copy app.conf
+  template:
+    src=templates/app.conf
+    dest=/etc/nginx/sites-available/{{ domain }}
+  vars:
+    servername: '{{ domain }}'
+
+- name: Delete another nginx config
+  become: yes
+  become_user: root
+  become_method: su
+  command: rm -f /etc/nginx/sites-enabled/*
+
+- name: Symlink app.conf
+  command: ln -sfn /etc/nginx/sites-available/{{ domain }} /etc/nginx/sites-enabled/{{ domain }}
+  notify:
+    - restart nginx
+
+- name: Copy .env
+  template:
+    src=templates/.env
+    dest=/var/www/html/laravel/
+
+- name: Install composer
+  command: composer install
+  args:
+    chdir: /var/www/html/laravel/
+
+- name: Get APP_KEY
+  command: php artisan key:generate
+  args:
+    chdir: /var/www/html/laravel/
+
+- name: Change Permission
+  become: yes
+  become_user: root
+  become_method: su
+  command: chmod -R 777 storage
+  args:
+    chdir: /var/www/html/laravel/
+
+- name: Write {{ domain }} to /etc/hosts
+  lineinfile:
+    dest: /etc/hosts
+    regexp: '.*{{ domain }}$'
+    line: "127.0.0.1    {{ domain }}"
+    state: present

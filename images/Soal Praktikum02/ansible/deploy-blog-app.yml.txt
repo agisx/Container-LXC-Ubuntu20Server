@@ -1,0 +1,13 @@
+- hosts: blog-app
+  vars:
+    git_url: 'https://github.com/WordPress/WordPress'
+    destdir: '/var/www/html/wordpress'
+    domain: 'lxc_php7.dev'
+  roles:
+    - app-blog
+
+- hosts: database
+  vars:
+    domain: http://vm.local:9001/blog
+  roles:
+    - db/blog-tasks

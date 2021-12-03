@@ -1,0 +1,6 @@
+---
+- name: Setup db For Blog app site url
+  command:  mysql update wp_options set option_value=’{{ domain }}’ where option_name='siteurl’;
+
+- name: Setup db For Blog app home
+  command:  mysql update wp_options set option_value=’{{ domain }}’ where option_name='home’;
