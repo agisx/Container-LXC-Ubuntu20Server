@@ -1,0 +1,41 @@
+#config modul sebelumnya
+
+- name: Creates directory for dns
+  file:
+    path: /var/www/html/dev/laravel
+    state: directory
+
+- name: Copy named.conf.local
+  template:
+    src=templates/named.conf.local
+    dest=/var/www/html/dev/laravel
+  notify:
+    - restart bind
+
+- name: Copy vm.local
+  template:
+    src=templates/vm.local
+    dest=/var/www/html/dev/laravel
+  notify:
+    - restart bind
+
+- name: Copy 3.0.10.in-addr.arpa
+  template:
+    src=templates/3.0.10.in-addr.arpa
+    dest=/var/www/html/dev/laravel
+  notify:
+    - restart bind
+
+- name: Copy named.conf.options
+  template:
+    src=templates/named.conf.options
+    dest=/var/www/html/dev/laravel
+  notify:
+    - restart bind
+
+- name: Copy resolv.conf
+  template:
+    src=templates/resolv.conf
+    dest=/var/www/html/dev/laravel
+  notify:
+    - restart bind

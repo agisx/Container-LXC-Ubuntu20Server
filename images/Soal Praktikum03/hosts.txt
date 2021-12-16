@@ -1,0 +1,3 @@
+127.0.0.1 localhost
+127.0.1.1 server_1
+127.0.1.1 vm.local www.vm.local dev.vm.local
