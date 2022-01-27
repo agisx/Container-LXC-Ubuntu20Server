@@ -2,17 +2,17 @@
 <h2>List Contents</h2>
 <ol>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#laravel-8">Teknologi yang Digunakan</a></li>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/arsitektur-jaringan">Arsitektur Jaringan</a></li>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/arsitektur-load-balancing">Arsitektur Load Balancing</a></li>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/ansible">Ansible</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#arsitektur-jaringan">Arsitektur Jaringan</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#arsitektur-load-balancing">Arsitektur Load Balancing</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#ansible">Ansible</a></li>
   <ol>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/all">All</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/laravel">Laravel</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/codeigniter-3">Codeigniter 3</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/wordpress-lastest">Wordpress Lastest</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/yii2">Yii2</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/dns">DNS</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/other-ansible-for-handler">Other ansible</a></li> 
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#all">All</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#laravel">Laravel</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#codeigniter-3">Codeigniter 3</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#wordpress-lastest">Wordpress Lastest</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#yii2">Yii2</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#dns">DNS</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#other-ansible-for-handler">Other ansible</a></li> 
   </ol>
   
   <li><a href=""></a></li>
