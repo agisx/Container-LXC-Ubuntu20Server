@@ -1,15 +1,15 @@
 <h1>Tugas Besar Sistem Administrasi</h1>
 <h2>List Contents</h2>
 <ol>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#laravel-8">Teknologi yang Digunakan</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#teknologi-yang-digunakan">Teknologi yang Digunakan</a></li>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#arsitektur-jaringan">Arsitektur Jaringan</a></li>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#arsitektur-load-balancing">Arsitektur Load Balancing</a></li>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#ansible">Ansible</a></li>
   <ol>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#all">All</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#laravel-8">Laravel</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#codeigniter-3">Codeigniter 3</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#wordpress-lastest">Wordpress Lastest</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#codeigniter-3">Codeigniter</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#wordpress-lastest">Wordpress</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#yii2">Yii2</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#dns">DNS</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#other-ansible-for-handler">Other ansible</a></li> 
