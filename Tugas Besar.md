@@ -53,13 +53,42 @@
   <h3>All</h3>
   <li>Run Ansibles</li>
   <img src="" alt="">
+  <img src="" alt="">
 </ol>
+<h3>Laravel 8</h3>
+<a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/laravel">Laravel's Ansible</a>
 <ol>
-  <h3>Laravel 8</h3>
-  <li>Run Laravel's Ansible</li>
-  <ol>
-    <li><a href="">Laravel's Ansible</a></li>
-    <img src="" alt="">
+  <li>Deploy all laravels' hosts</li>
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/laravel/all%20hosts.PNG">
+  <li>Laravel's Tasks</li>
+  <ol type="a">
+    <li>Install requirement items, add Repository, and clone the laravel's git</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/1.1.PNG?raw=true">
+    <ul> 
+      <li>Delete the files' apt chache</li>
+      <li>Install php7 package requirements</li>
+      <li>Ignore yes to skip thee rror from lxc's installed yet package</li>
+      <li>Add php repository and add key for php packages</li>
+    </ul>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/1.2.PNG?raw=true">
+    <ul> 
+      <li>Add php repository</li>
+      <li>Install nginx requirements</li>
+      <li>Clone the laravel's git</li>
+    </ul>
+    <li>Setup the server file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/1.3.PNG?raw=true">
+    <ul> 
+      <li>Copy nginx files template</li>
+      <li>Create the symlink</li>
+      <li>Copy laravel's file config</li>
+      <li>Generate the key</li>
+      <li>Change the permission</li>
+    </ul>
+    <li>Write up the host in hosts file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/1.4.PNG?raw=true">
+    <li>Nginx's config file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/5.PNG?raw=true">
   </ol>
   <li></li>
   <li></li>
@@ -73,7 +102,7 @@
   <li>Run Codeigniter's Ansible</li>
   <ol>
     <li><a href="">Codeigniter's Ansible</a></li>
-    <img src="" alt="">
+    <img src="">
   </ol>
   <li></li>
   <li></li>
