@@ -10,8 +10,7 @@
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#laravel">Laravel</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#codeigniter">Codeigniter</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#wordpress">Wordpress</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#yii">Yii2</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#dns">DNS</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#yii">Yii2</a></li> 
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#other-ansible-for-handler">Other ansible</a></li> 
   </ol>
   
@@ -218,6 +217,10 @@
   </ol>
 </ol>
 
-
+<h3>Other ansible</h3>
+<a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/yii">Run Yii2's Ansible</a>
+<ol>
+  <li>Deploy host file</li>
+</ol>
 
 
