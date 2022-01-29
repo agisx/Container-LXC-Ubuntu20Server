@@ -89,6 +89,8 @@
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/5.PNG?raw=true">
     <li>Database file</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/5.2.PNG?raw=true">
+    <li>The handlers</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20wp%20lvl%20yii.PNG?raw=true">
   </ol>
 </ol>
 
@@ -127,7 +129,9 @@
     <li>Nginx's config file</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/ci/5.1.PNG?raw=true">
     <li>Database file</li>
-    <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/762bb0c9be9d20a7daebc4e84ba1222fc5464757/images/tubes/ci/5.2.PNG"> 
+    <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/762bb0c9be9d20a7daebc4e84ba1222fc5464757/images/tubes/ci/5.2.PNG">
+    <li>The handlers</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20ci.PNG?raw=true">
   </ol>
 </ol>
 
@@ -167,6 +171,8 @@
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/5.1.PNG?raw=true">
     <li>wordpress's file config</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/5.2.PNG?raw=true">
+    <li>The handlers</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20wp%20lvl%20yii.PNG?raw=true">
   </ol>
   <li>DNS's Roles</li> 
   <ol type="a">  
@@ -214,6 +220,8 @@
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/5.1.PNG?raw=true">
     <li>yii's file config</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/5.2.PNG?raw=true">
+    <li>The handlers</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20wp%20lvl%20yii.PNG?raw=true">
   </ol>
 </ol>
 
