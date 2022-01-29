@@ -11,6 +11,7 @@
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#codeigniter">Codeigniter</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#wordpress">Wordpress</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#yii">Yii2</a></li> 
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#database">Database</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#other-ansible-for-handler">Other ansible</a></li> 
   </ol>
   
@@ -144,7 +145,7 @@
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/wp/all%20hosts.PNG">
   <li>Wordpress's Roles</li> 
   <ol type="a">  
-    <li>Install requirement items, add Repository, and clone the laravel's git</li>
+    <li>Install requirement items, add Repository, and clone the Wordpress's git</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/1.1.PNG?raw=true">
     <ul> 
       <li>Delete the files' apt chache</li>
@@ -194,7 +195,7 @@
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/yii/all%20hosts.PNG">
   <li>Yii2's Roles</li> 
   <ol type="a">  
-    <li>Install requirement items, add Repository, and clone the laravel's git</li>
+    <li>Install requirement items and add Repository</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/1.1.PNG?raw=true">
     <ul> 
       <li>Delete the files' apt chache</li>
@@ -222,6 +223,34 @@
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/5.2.PNG?raw=true">
     <li>The handlers</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20wp%20lvl%20yii.PNG?raw=true">
+  </ol>
+</ol>
+
+<h3>Database</h3>
+<a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/yii">Run Database's Ansible</a>
+<ol>
+  <li>Deploy host file</li>
+  <img src=""> 
+  <li>Database's Roles</li> 
+  <ol type="a">  
+    <li>Install requirement items and setup the db's environment</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/1.1.PNG?raw=true">  
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/1.2.PNG?raw=true">  
+    <li>Create the databases</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/1.3.PNG?raw=true">  
+  </ol>
+  <li>Phpmyadmin's Roles</li> 
+  <ol type="a">  
+    <li>Install requirement items and setup the phpmyadmin's environment</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/2.1.PNG?raw=true">  
+    <ul> 
+      <li>Delete the files' apt chache</li>
+      <li>Install php and phpmyadmin package requirements</li>
+      <li>Copy pma's config files</li>
+      <li>Write up the host ip in hosts file</li>
+    </ul>    
+    <li>Nginx's file for phpmyadmin</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/5.1.PNG?raw=true">  
   </ol>
 </ol>
 
