@@ -64,7 +64,7 @@
     <ul> 
       <li>Delete the files' apt chache</li>
       <li>Install php7 package requirements</li>
-      <li>Ignore yes to skip thee rror from lxc's installed yet package</li>
+      <li>Ignore yes to skip the error from lxc's installed yet package</li>
       <li>Add php repository and add key for php packages</li>
     </ul>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/1.2.PNG?raw=true">
@@ -103,7 +103,7 @@
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/ci/all%20hosts.PNG">
   <li>Codeigniter's Roles</li>
   <ol type="a">  
-    <li>Install requirement items, add Repository, and clone the laravel's git</li>
+    <li>Install requirement items, add Repository, and clone the Codeigniters's git</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/ci/1.1.PNG?raw=true">
     <ul> 
       <li>Delete the files' apt chache</li>
@@ -133,20 +133,41 @@
 </ol>
 
 <h3>Wordpress</h3>
-<a>Run Wordpress's Ansible</a>
+<a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/wp">Wordpress's Ansible</a>
 <ol>
   <li>Deploy host file</li>
   <img src="">
   <li>Deploy all Wordpress' hosts</li>
-  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/ci/all%20hosts.PNG">
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/wp/all%20hosts.PNG">
   <li>Wordpress's Roles</li> 
   <ol type="a">  
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Install requirement items, add Repository, and clone the laravel's git</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/1.1.PNG?raw=true">
+    <ul> 
+      <li>Delete the files' apt chache</li>
+      <li>Install php7 package requirements</li>
+      <li>Ignore yes to skip the error from lxc's installed yet package</li>
+      <li>Add php repository</li>
+    </ul> 
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/1.2.PNG?raw=true">
+    <ul> 
+      <li>Add key for php packages</li>
+      <li>Add php 7 repository</li>
+      <li>Install nginx requirements</li>
+    </ul>
+    <li>Setup the server file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/1.3.PNG?raw=true">
+    <ul> 
+      <li>Clone the wp's git</li>
+      <li>Copy nginx files template</li>
+      <li>Create the symlink</li>
+      <li>Copy wordpress's file config</li> 
+      <li>Write up the host in hosts file</li>
+    </ul> 
+    <li>Nginx's config file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/5.1.PNG?raw=true">
+    <li>wordpress's file config</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/5.2.PNG?raw=true">
   </ol>
   <li>DNS's Roles</li> 
   <ol type="a">  
