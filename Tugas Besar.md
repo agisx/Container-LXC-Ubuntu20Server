@@ -139,8 +139,16 @@
   <img src="">
   <li>Deploy all Wordpress' hosts</li>
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/ci/all%20hosts.PNG">
-  <li>Wordpress's Roles</li>
-  <img src="">
+  <li>Wordpress's Roles</li> 
+  <ol type="a">  
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+  <li>DNS's Roles</li> 
   <ol type="a">  
     <li></li>
     <li></li>
@@ -151,39 +159,22 @@
   </ol>
 </ol>
 
+<h3>Yii2</h3>
+<a>Run Yii2's Ansible</a>
 <ol>
-  <h3>Yii2</h3>
-  <li>Run Yii2's Ansible</li>
-  <ol>
-    <li><a href="">Yii2's Ansible</a></li>
-    <img src="" alt="">
+  <li>Deploy host file</li>
+  <img src="">
+  <li>Deploy all Yii2' hosts</li>
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/ci/all%20hosts.PNG">
+  <li>Yii2's Roles</li> 
+  <ol type="a">  
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
   </ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ol>
-<ol>
-  <h3>DNS</h3>
-  <li>Run DNS's Ansible</li>
-  <ol>
-    <li><a href="">DNS's Ansible</a></li>
-    <img src="" alt="">
-  </ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ol>
-<ol>
-  <h3>Other ansible for handler</h3>
-  <li></li> 
 </ol>
 
 
