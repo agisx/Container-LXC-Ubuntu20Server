@@ -170,7 +170,7 @@
     <li>Nginx's config file</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/5.1.PNG?raw=true">
     <li>wordpress's file config</li>
-    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/5.2.PNG?raw=true">
+    <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/5aab4f77f4180387c13962728807ae62ff012aed/images/tubes/wp/5.2.PNG">
     <li>The handlers</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20wp%20lvl%20yii.PNG?raw=true">
   </ol>
