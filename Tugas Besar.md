@@ -227,7 +227,7 @@
 </ol>
 
 <h3>Database</h3>
-<a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/yii">Run Database's Ansible</a>
+<a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/maria">Run Database's Ansible</a>
 <ol>
   <li>Deploy host file</li>
   <img src=""> 
