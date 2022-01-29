@@ -39,28 +39,25 @@
 <img src="https://raw.githubusercontent.com/aldonesia/Sistem-Administrasi-Server-2021/master/Final%20Project/assets/arsitektur.png" alt="Arsitektur Jaringan">
 
 <h2>Arsitektur Load Balancing</h2>
-<img src="" alt="">
-
-<h2>Teknologi yang Digunakan</h2>
-<ol>
-  <li></li>
-</ol>
-<img src="" alt="">
+<img src="">
 
 <h2>Ansible</h2>
-<img src="" alt="">
+<img src="">
 <ol>
   <h3>All</h3>
   <li>Run Ansibles</li>
-  <img src="" alt="">
-  <img src="" alt="">
+  <img src="">
+  <img src="">
 </ol>
+
 <h3>Laravel 8</h3>
 <a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/laravel">Laravel's Ansible</a>
-<ol>
+<ol>  
+  <li>Deploy host file</li>
+  <img src="">
   <li>Deploy all laravels' hosts</li>
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/laravel/all%20hosts.PNG">
-  <li>Laravel's Tasks</li>
+  <li>Laravel's Roles</li>
   <ol type="a">
     <li>Install requirement items, add Repository, and clone the laravel's git</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/1.1.PNG?raw=true">
@@ -82,49 +79,78 @@
       <li>Copy nginx files template</li>
       <li>Create the symlink</li>
       <li>Copy laravel's file config</li>
+      <li>Install composer for laravel</li>
       <li>Generate the key</li>
       <li>Change the permission</li>
+      <li>Copy database file</li>
     </ul>
     <li>Write up the host in hosts file</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/1.4.PNG?raw=true">
     <li>Nginx's config file</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/5.PNG?raw=true">
+    <li>Database file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/5.2.PNG?raw=true">
   </ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
 </ol>
+
+
+<h3>Codeigniter</h3>
+<a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/ci">Codeigniter's Ansible</a>
 <ol>
-  <h3>Codeigniter 3</h3>
-  <li>Run Codeigniter's Ansible</li>
-  <ol>
-    <li><a href="">Codeigniter's Ansible</a></li>
-    <img src="">
+  <li>Deploy host file</li>
+  <img src="">
+  <li>Deploy all Codeigniters' hosts</li>
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/ci/all%20hosts.PNG">
+  <li>Codeigniter's Roles</li>
+  <ol type="a">  
+    <li>Install requirement items, add Repository, and clone the laravel's git</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/ci/1.1.PNG?raw=true">
+    <ul> 
+      <li>Delete the files' apt chache</li>
+      <li>Install php7 package requirements</li>
+      <li>Ignore yes to skip the error from lxc's installed yet package</li>
+      <li>Add php repository and add key for php packages</li>
+    </ul>    
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/ci/1.2.PNG?raw=true">
+    <ul> 
+      <li>Install nginx requirements</li>
+      <li>Clone the ci's git</li>
+      <li>Copy nginx files template</li>
+      <li>Copy database template</li>
+    </ul>
+    <li>Setup the server file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/ci/1.3.PNG?raw=true">
+    <ul> 
+      <li>Delete another nginx config</li>
+      <li>Create a symlink</li>  
+      <li>Write up the host in hosts file</li>
+    </ul> 
+    <li>Nginx's config file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/ci/5.1.PNG?raw=true">
+    <li>Database file</li>
+    <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/762bb0c9be9d20a7daebc4e84ba1222fc5464757/images/tubes/ci/5.2.PNG"> 
   </ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
 </ol>
+
+<h3>Wordpress</h3>
+<a>Run Wordpress's Ansible</a>
 <ol>
-  <h3>Wordpress Lastest</h3>
-  <li>Run Wordpress's Ansible</li>
-  <ol>
-    <li><a href="">Wordpress's Ansible</a></li>
-    <img src="" alt="">
+  <li>Deploy host file</li>
+  <img src="">
+  <li>Deploy all Wordpress' hosts</li>
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/ci/all%20hosts.PNG">
+  <li>Wordpress's Roles</li>
+  <img src="">
+  <ol type="a">  
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
   </ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
 </ol>
+
 <ol>
   <h3>Yii2</h3>
   <li>Run Yii2's Ansible</li>
