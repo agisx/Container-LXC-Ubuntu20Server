@@ -181,20 +181,40 @@
 </ol>
 
 <h3>Yii</h3>
-<a>Run Yii2's Ansible</a>
+<a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/yii">Run Yii2's Ansible</a>
 <ol>
   <li>Deploy host file</li>
   <img src="">
   <li>Deploy all Yii2' hosts</li>
-  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/ci/all%20hosts.PNG">
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/yii/all%20hosts.PNG">
   <li>Yii2's Roles</li> 
   <ol type="a">  
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Install requirement items, add Repository, and clone the laravel's git</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/1.1.PNG?raw=true">
+    <ul> 
+      <li>Delete the files' apt chache</li>
+      <li>Install php7 package requirements</li>
+      <li>Ignore yes to skip the error from lxc's installed yet package</li>
+      <li>Add php repository</li>
+    </ul>    
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/1.2.PNG?raw=true">
+    <ul> 
+      <li>Add key and php repository</li>
+      <li>Install nginx requirements</li> 
+    </ul>    
+    <li>Setup the server file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/1.3.PNG?raw=true">
+    <ul> 
+      <li>Create a yii project</li>
+      <li>Copy nginx files template</li>
+      <li>Copy database file</li>
+      <li>Create the symlink</li>  
+      <li>Change the permission</li>
+    </ul>
+    <li>Nginx's config file</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/5.1.PNG?raw=true">
+    <li>yii's file config</li>
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/5.2.PNG?raw=true">
   </ol>
 </ol>
 
