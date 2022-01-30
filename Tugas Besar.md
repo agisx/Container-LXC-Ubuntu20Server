@@ -12,13 +12,8 @@
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#wordpress">Wordpress</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#yii">Yii2</a></li> 
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#database">Database</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#other-ansible-for-handler">Other ansible</a></li> 
-  </ol>
-  
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li>
+  </ol> 
+  <li>Analysis</li> 
 </ol>
 
 <h2>Teknologi yang Digunakan</h2>
