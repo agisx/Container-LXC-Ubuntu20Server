@@ -469,3 +469,64 @@
   <li>The result</li>
   <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/mariadb.PNG?raw=true">
 </ol>
+
+
+<table>
+  <caption>Vars</caption>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Threats</th>
+      <th>AVG througput</th>
+      <th>AVG landing</th>
+      <th>AVG product</th>
+      <th>AVG app</th>
+      <th>AVG news</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>50</td>
+      <td>31.9/sec</td>
+      <td>50/sec</td>
+      <td>50/sec</td>
+      <td></td>
+      <td></td>
+    </tr>    
+    <tr>
+      <td>1</td>
+      <td>150</td>
+      <td>79.6/sec</td>
+      <td>150/sec</td>
+      <td>150/sec</td>
+      <td></td>
+      <td></td>
+    </tr>      
+    <tr>
+      <td>1</td>
+      <td>300</td>
+      <td>79.7/sec</td>
+      <td>200.8/sec</td>
+      <td>224.8/sec</td>
+      <td></td>
+      <td></td>
+    </tr>     
+    <tr>
+      <td>1</td>
+      <td>500</td>
+      <td>90.9/sec</td>
+      <td>249.1/sec</td>
+      <td>294.5/sec</td>
+      <td>299.66900/sec</td>
+      <td></td>
+    </tr>     
+  </tbody>
+</table>
+
+
+
+
+
+
+
