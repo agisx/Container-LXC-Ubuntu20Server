@@ -41,6 +41,9 @@
 <h2>Arsitektur Load Balancing</h2>
 <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/arsitektur%20table.PNG?raw=true">
 
+<h2>All Containers</h2>
+<img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/all%20containers.PNG?raw=truee">
+
 <h2>Ansible</h2>
 <h3>Laravel</h3>
 <a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/laravel">Laravel's Ansible</a>
@@ -118,8 +121,12 @@
     <li>Database file</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/5.2.PNG?raw=true">
     <li>The handlers</li>
-    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20wp%20lvl%20yii.PNG?raw=true">
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20wp%20lvl%20yii.PNG?raw=true">    
   </ol>
+  <li>Run laravel's ansible</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/run.PNG?raw=true">
+  <li>The result</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel.PNG?raw=true">
 </ol>
 
 
@@ -196,6 +203,11 @@
     <li>The handlers</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20ci.PNG?raw=true">
   </ol>
+  
+  <li>Run ci's ansible</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/ci/run.PNG?raw=true">
+  <li>The result</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/ci3.PNG?raw=true">
 </ol>
 
 <h3>Wordpress</h3>
@@ -271,16 +283,71 @@
     <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/5aab4f77f4180387c13962728807ae62ff012aed/images/tubes/wp/5.2.PNG">
     <li>The handlers</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20wp%20lvl%20yii.PNG?raw=true">
-  </ol>
+  </ol> 
+  
+  <table>
+    <caption>Vars</caption>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Var Name</th>
+        <th>Value</th>
+        <th>Explain</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>full_ip_host</td>
+        <td>Full Ip</td>
+        <td>Get current lxc's ip</td>
+      </tr> 
+      <tr>
+        <td>2</td>
+        <td>ip_host</td>
+        <td>Ip</td>
+        <td>Split ip into list</td>
+      </tr> 
+      <tr>
+        <td>3</td>
+        <td>zone_name</td>
+        <td>ip_host[2] + ip_host[1] + ip_host[0] + in-addr</td>
+        <td>Set name file</td>
+      </tr> 
+      <tr>
+        <td>4</td>
+        <td>last_byte</td>
+        <td>ip_host[3]</td>
+        <td>File name</td>
+      </tr> 
+      <tr>
+        <td>4</td>
+        <td>name_dns</td>
+        <td>news</td>
+        <td>Set dns name</td>
+      </tr> 
+    </tbody>
+  </table>
   <li>DNS's Roles</li> 
-  <ol type="a">  
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+  <ol type="a">   
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/dns/1.1.PNG?raw=true"> 
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/dns/1.2.PNG?raw=truee"> 
   </ol>
+  <li>3.0.10.in-addr.arpa template</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/dns/5.1.PNG?raw=true"> 
+  <li>kelompok13.fpsas template</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/dns/5.2.PNG?raw=true"> 
+  <li>named.conf.local template</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/dns/5.3.PNG?raw=true"> 
+  <li>named.conf.options template</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/dns/5.4.PNG?raw=true"> 
+  <li>resolv.conf template</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/dns/5.5.PNG?raw=true"> 
+   
+  <li>Run Wordpress and dns's ansible</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/run.PNG?raw=true">
+  <li>The result</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp.PNG?raw=true">
 </ol>
 
 <h3>Yii</h3>
@@ -350,6 +417,10 @@
     <li>The handlers</li>
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/handlers%20wp%20lvl%20yii.PNG?raw=true">
   </ol>
+  <li>Run yii's ansible</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii/run.PNG?raw=true">
+  <li>The result</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/yii.PNG?raw=true">
 </ol>
 
 <h3>Database</h3>
@@ -386,6 +457,8 @@
       </tr> 
     </tbody>
   </table>
+  <li>Deploy Mariadb' hosts</li>
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/940c27c85b26439c2400164383eb246c2b4e05c5/images/tubes/maria/all%20hosts.PNG">
   <li>Database's Roles</li> 
   <ol type="a">  
     <li>Install requirement items and setup the db's environment</li>
@@ -395,18 +468,9 @@
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/1.3.PNG?raw=true">  
   </ol>
   <li>Database file config</li> 
-  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/5.2.PNG?raw=true">  
-  <li>Phpmyadmin's Roles</li> 
-  <ol type="a">  
-    <li>Install requirement items and setup the phpmyadmin's environment</li>
-    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/2.1.PNG?raw=true">  
-    <ul> 
-      <li>Delete the files' apt chache</li>
-      <li>Install php and phpmyadmin package requirements</li>
-      <li>Copy pma's config files</li>
-      <li>Write up the host ip in hosts file</li>
-    </ul>    
-    <li>Nginx's file for phpmyadmin</li>
-    <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/83b4c38cc8f6473ea401459e3ed268ba53971826/images/tubes/maria/5.1.PNG">  
-  </ol>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/5.2.PNG?raw=true">      
+  <li>Run mariadb's ansible</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/run.PNG?raw=true">     
+  <li>The result</li>
+  <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/mariadb.PNG?raw=true">
 </ol>
