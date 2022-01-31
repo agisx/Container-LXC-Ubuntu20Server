@@ -494,42 +494,42 @@
       <th>AVG news</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody>       
     <tr>
       <td>1</td>
       <td>50</td>
-      <td>31.9/sec</td>
-      <td>50/sec</td>
-      <td>50/sec</td>
-      <td></td>
-      <td></td>
-    </tr>    
+      <td>47.7/sec</td>
+      <td>12.5/sec</td>
+      <td>12.5/sec</td>
+      <td>12.5/sec</td>
+      <td>12.5/sec</td>
+    </tr> 
     <tr>
-      <td>1</td>
+      <td>2</td>
       <td>150</td>
-      <td>79.6/sec</td>
-      <td>150/sec</td>
-      <td>150/sec</td>
-      <td></td>
-      <td></td>
+      <td>50.1/sec</td>
+      <td>12.5/sec</td>
+      <td>12.5/sec</td>
+      <td>12.5/sec</td>
+      <td>12.5/sec</td>
     </tr>      
     <tr>
-      <td>1</td>
+      <td>3</td>
       <td>300</td>
-      <td>79.7/sec</td>
-      <td>200.8/sec</td>
-      <td>224.8/sec</td>
-      <td></td>
-      <td></td>
+      <td>77.4/sec</td>
+      <td>33.3/sec</td>
+      <td>33.1/sec</td>
+      <td>6.4/sec</td>
+      <td>6.2/sec</td>
     </tr>     
     <tr>
-      <td>1</td>
+      <td>4</td>
       <td>500</td>
-      <td>90.9/sec</td>
-      <td>249.1/sec</td>
-      <td>294.5/sec</td>
-      <td>299.66900/sec</td>
-      <td></td>
+      <td>112.5/sec</td>
+      <td>45.5/sec</td>
+      <td>29.9/sec</td>
+      <td>17.3/sec</td>
+      <td>17.3/sec</td>
     </tr>     
   </tbody>
 </table>
