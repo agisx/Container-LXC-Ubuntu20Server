@@ -4,6 +4,7 @@
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#teknologi-yang-digunakan">Teknologi yang Digunakan</a></li>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#arsitektur-jaringan">Arsitektur Jaringan</a></li>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#arsitektur-load-balancing">Arsitektur Load Balancing</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#avm-configuration">Vm configuration</a></li>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#ansible">Ansible</a></li>
   <ol>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#all">All</a></li>
@@ -39,7 +40,16 @@
 <h2>All Containers</h2>
 <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/all%20containers.PNG?raw=truee">
 
+<h2>Configuration</h2>
+<img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/load%20balancer.PNG?raw=true">
+<img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/server.PNG?raw=true">
+<img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/hosts.PNG?raw=true" alt="Vm Hosts">
+<img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/c34144ce93f38a60dab5b21ed26bad047266917d/images/tubes/window.PNG" alt="Windows Hosts">
+<img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/dns%20windows.PNG?raw=true" alt="Windows DNS">
+
 <h2>Ansible</h2>
+<h3>All Hosts</h3>
+<img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/all%20hosts.PNG?raw=true">
 <h3>Laravel</h3>
 <a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/tree/main/images/tubes/laravel">Laravel's Ansible</a>
 <ol>  
