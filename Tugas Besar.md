@@ -3,7 +3,7 @@
 <ol>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#teknologi-yang-digunakan">Teknologi yang Digunakan</a></li>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#arsitektur-jaringan">Arsitektur Jaringan</a></li>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#arsitektur-load-balancing">Arsitektur Load Balancing</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#tabel-load-balancing">Tabel Load Balancing</a></li>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#configuration">Vm configuration</a></li>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#ansible">Ansible</a></li>
   <ol>
@@ -34,8 +34,8 @@
 <h2>Arsitektur Jaringan</h2>
 <img src="https://raw.githubusercontent.com/aldonesia/Sistem-Administrasi-Server-2021/master/Final%20Project/assets/arsitektur.png" alt="Arsitektur Jaringan">
 
-<h2>Arsitektur Load Balancing</h2>
-<img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/arsitektur%20table.PNG?raw=true">
+<h2>Tabel Load Balancing</h2>
+<img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/686ef165047c8bc3265a10e708666bc6d4ece183/images/tubes/arsitektur%20table.PNG">
 
 <h2>All Containers</h2>
 <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/all%20containers.PNG?raw=truee">
