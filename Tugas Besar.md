@@ -481,8 +481,7 @@
 </ol>
 
 <h3>Analysis</h3>
-<table>
-  <caption>Vars</caption>
+<table> 
   <thead>
     <tr>
       <th>No</th>
@@ -532,10 +531,9 @@
       <td>17.3/sec</td>
     </tr>     
   </tbody>
-</table>
-
-
-
+</table> 
+<a>Bagaimana cara mengurangi nilai througput dan meningkatkan nilai jumlah user yang dapat dilayani setiap detik untuk skema yang telah dibuat ? Sebutkan faktor faktor yang mempengaruhi !</a>
+<p>Server linux menjalankan service-service linux dibackground terutama web server yaitu menjalankan perangkat lunak berupa web. Server linux dapat semakin berat ketika ada banyak redundan service yang berjalan, memori penuh, kesalahan server, dan hal lainnya. Dalam skema terlihat sebagian besar kontainer memiliki beberapa website yang aktif secara bersamaan ada yang memiliki 2 hingga 3 web yang berjalan. Ini akan menyebabkan kegagalan server dan membuat lag ketika menerima permintaan dengan kontainer yang sama dengan port yang berbeda secara massive. Kegagalan terjadi ketika menerima 500 users dengan permintaan berbeda-berbeda dari setiap kontainer. Kegagalan juga terjadi ketika pemasangan ansible dengan menggunakan metode group. Solusi terbaik yaitu setiap container cukup memiliki 1 web service. Untuk container DNS berdiri sendiri agar meringankan beban. Untuk arsitektur jaringan terhubung dengan kontainer satu sama lain yang tidak memiliki tujuan cenderung kurang aman. Dengan memisahkan container yang tidak memiliki pelayanan yang sama dan membuatnya menjadi beberapa group akan menciptakan sebuah privilege bagi user.</p>
 
 
 
