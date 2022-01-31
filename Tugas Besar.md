@@ -274,7 +274,7 @@
       <li>Install nginx requirements</li>
     </ul>
     <li>Setup the server file</li>
-    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/laravel/1.3.PNG?raw=true">
+    <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/wp/1.3.PNG?raw=true">
     <ul> 
       <li>Clone the wp's git</li>
       <li>Copy nginx files template</li>
