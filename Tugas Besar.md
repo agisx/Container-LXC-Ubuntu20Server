@@ -14,7 +14,7 @@
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#yii">Yii2</a></li> 
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#database">Database</a></li>
   </ol> 
-  <li>Analysis</li> 
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#analysis"Analysis</a></li> 
 </ol>
 
 <h2>Teknologi yang Digunakan</h2>
@@ -480,7 +480,7 @@
   <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/mariadb.PNG?raw=true">
 </ol>
 
-
+<h3>Analysis</h3>
 <table>
   <caption>Vars</caption>
   <thead>
