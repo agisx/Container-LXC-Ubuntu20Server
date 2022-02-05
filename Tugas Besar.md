@@ -89,7 +89,8 @@
         <td>File name</td>
       </tr> 
     </tbody>
-  </table>
+  </table>  
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/laravel/0.PNG">
   <li>Deploy all laravels' hosts</li>
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/laravel/all%20hosts.PNG">
   <li>Laravel's Roles</li>
@@ -174,7 +175,8 @@
         <td>File name</td>
       </tr> 
     </tbody>
-  </table>
+  </table>  
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/ci/0.PNG">
   <li>Deploy all Codeigniters' hosts</li>
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/ci/all%20hosts.PNG">
   <li>Codeigniter's Roles</li>
@@ -255,6 +257,7 @@
       </tr> 
     </tbody>
   </table>
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/wp/0.PNG">
   <li>Deploy all Wordpress' hosts</li>
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/wp/all%20hosts.PNG">
   <li>Wordpress's Roles</li> 
@@ -333,6 +336,7 @@
       </tr> 
     </tbody>
   </table>
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/dns/0.PNG">
   <li>DNS's Roles</li> 
   <ol type="a">   
     <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/dns/1.1.PNG?raw=true"> 
@@ -389,6 +393,7 @@
       </tr> 
     </tbody>
   </table>
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/yii/0.PNG">
   <li>Deploy all Yii2' hosts</li>
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/yii/all%20hosts.PNG">
   <li>Yii2's Roles</li> 
@@ -462,6 +467,7 @@
       </tr> 
     </tbody>
   </table>
+  <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/main/images/tubes/maria/0.PNG">
   <li>Deploy Mariadb' hosts</li>
   <img src="https://raw.githubusercontent.com/agisx/Container-LXC-Ubuntu20Server/940c27c85b26439c2400164383eb246c2b4e05c5/images/tubes/maria/all%20hosts.PNG">
   <li>Database's Roles</li> 
