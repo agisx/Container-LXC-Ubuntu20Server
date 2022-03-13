@@ -1,8 +1,3 @@
-<h4>Nama : Dewa Nusantara MP</h4>
-<h4>NIM  : 1202190053</h4>
-<h4>Nama : Agi Lobita J.M</h4>
-<h4>NIM  : 1202190031</h4>
-
 <h1>Ansbile</h1>
 <ol>
   <li>Edit tasks file untuk landing, task berisi salin templates dan mengulang bind9</li>
