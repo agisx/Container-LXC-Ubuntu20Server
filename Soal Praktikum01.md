@@ -69,22 +69,3 @@
    Proxy Server is a system for access a network using an ip Proxy Server. vm.local can be assumed as a Proxy Server because vm.local's just a bridge to proceed to the container app. So we can access the container as vm.local.
   </ul>
 </ol>
-<table>
-  <caption>Group Member</caption>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>NIM</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Agi Lobita Japtara Martadinata</td>
-      <td>1202190031</td>
-    </tr>
-    <tr>
-      <td>Dewa Nusantara Murdoko Putra</td>
-      <td>1202190053</td>
-    </tr>
-  </tbody>
-</table>
