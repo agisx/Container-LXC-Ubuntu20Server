@@ -1,4 +1,6 @@
-<h1>Tugas Besar Sistem Administrasi</h1>
+# Container LXC Ubuntu Server
+Perancangan container dalam ubuntu server menggunakan linux container atau lxc. Container adalah metode virtualisasi tingkat sistem operasi untuk menjalankan beberapa sistem operasi yang terisolasi satu sama lain dalam satu perangkat atau satu host. Dalam hal ini adalah ubuntu server memiliki beberapa ubuntu server sebagai container didalamnya dan dapat menciptakan lingkungan development maupun production dalam satu perangkat tanpa mengganggu satu sama lain. 
+
 <h2>List Contents</h2>
 <ol>
   <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#teknologi-yang-digunakan">Teknologi yang Digunakan</a></li>
