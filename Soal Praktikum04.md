@@ -25,9 +25,9 @@
 </ol>
 <ol>
   <li>50 users</li>
-  AVG throughput without load balancer is 5.25/sec meanwhile with load balancer we got 36/sec, that has been increase as well as received and sent
+  AVG throughput without load balancer is 21.1/sec meanwhile with load balancer we got 144.0/sec, that has been increase as well as received and sent
   <li>100 users</li>
-  AVG throughput without load balancer is 29/sec meanwhile with load balancer we got 42.25/sec, that has been increase as well as received and sent
+  AVG throughput without load balancer is 116.4/sec meanwhile with load balancer we got 169.3/sec, that has been increase as well as received and sent
   <li>150 users</li>
-  AVG throughput without load balancer is 36.25/sec meanwhile with load balancer we got 42.25/sec, that has been increase as well as received and sent
+  AVG throughput without load balancer is 145.8/sec meanwhile with load balancer we got 169.3/sec, that has been increase as well as received and sent
 </ol>
