@@ -3,20 +3,20 @@ Perancangan container dalam ubuntu server menggunakan linux container atau lxc. 
 
 <h2>List Contents</h2>
 <ol>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#teknologi-yang-digunakan">Teknologi yang Digunakan</a></li>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#arsitektur-jaringan">Arsitektur Jaringan</a></li>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#tabel-load-balancing">Tabel Load Balancing</a></li>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#configuration">Vm configuration</a></li>
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#ansible">Ansible</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#teknologi-yang-digunakan">Teknologi yang Digunakan</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#arsitektur-jaringan">Arsitektur Jaringan</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#tabel-load-balancing">Tabel Load Balancing</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#configuration">Vm configuration</a></li>
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#ansible">Ansible</a></li>
   <ol>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#all-hosts">All Hosts</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#laravel">Laravel</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#codeigniter">Codeigniter</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#wordpress">Wordpress</a></li>
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#yii">Yii2</a></li> 
-    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#database">Database</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#all-hosts">All Hosts</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#laravel">Laravel</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#codeigniter">Codeigniter</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#wordpress">Wordpress</a></li>
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#yii">Yii2</a></li> 
+    <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#database">Database</a></li>
   </ol> 
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/Tugas%20Besar.md#analysis">Analysis</a></li> 
+  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#analysis">Analysis</a></li> 
 </ol>
 
 <h2>Teknologi yang Digunakan</h2>
