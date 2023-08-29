@@ -15,8 +15,7 @@ Perancangan container dalam ubuntu server menggunakan linux container atau lxc. 
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#wordpress">Wordpress</a></li>
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#yii">Yii2</a></li> 
     <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#database">Database</a></li>
-  </ol> 
-  <li><a href="https://github.com/agisx/Container-LXC-Ubuntu20Server#analysis">Analysis</a></li> 
+  </ol>
 </ol>
 
 <h2>Teknologi yang Digunakan</h2>
@@ -487,58 +486,3 @@ Perancangan container dalam ubuntu server menggunakan linux container atau lxc. 
   <li>The result</li>
   <img src="https://github.com/agisx/Container-LXC-Ubuntu20Server/blob/main/images/tubes/maria/mariadb.PNG?raw=true">
 </ol>
-
-<h3>Analysis</h3>
-<table> 
-  <thead>
-    <tr>
-      <th>No</th>
-      <th>Threats</th>
-      <th>AVG througput</th>
-      <th>AVG landing</th>
-      <th>AVG product</th>
-      <th>AVG app</th>
-      <th>AVG news</th>
-    </tr>
-  </thead>
-  <tbody>       
-    <tr>
-      <td>1</td>
-      <td>50</td>
-      <td>47.7/sec</td>
-      <td>12.5/sec</td>
-      <td>12.5/sec</td>
-      <td>12.5/sec</td>
-      <td>12.5/sec</td>
-    </tr> 
-    <tr>
-      <td>2</td>
-      <td>150</td>
-      <td>50.1/sec</td>
-      <td>12.5/sec</td>
-      <td>12.5/sec</td>
-      <td>12.5/sec</td>
-      <td>12.5/sec</td>
-    </tr>      
-    <tr>
-      <td>3</td>
-      <td>300</td>
-      <td>77.4/sec</td>
-      <td>33.3/sec</td>
-      <td>33.1/sec</td>
-      <td>6.4/sec</td>
-      <td>6.2/sec</td>
-    </tr>     
-    <tr>
-      <td>4</td>
-      <td>500</td>
-      <td>112.5/sec</td>
-      <td>45.5/sec</td>
-      <td>29.9/sec</td>
-      <td>17.3/sec</td>
-      <td>17.3/sec</td>
-    </tr>     
-  </tbody>
-</table> 
-<a>Bagaimana cara mengurangi nilai througput dan meningkatkan nilai jumlah user yang dapat dilayani setiap detik untuk skema yang telah dibuat ? Sebutkan faktor faktor yang mempengaruhi !</a>
-<p>Server linux menjalankan service-service linux dibackground terutama web server yaitu menjalankan perangkat lunak berupa web. Server linux dapat semakin berat ketika ada banyak redundan service yang berjalan, memori penuh, kesalahan server, dan hal lainnya. Dalam skema terlihat sebagian besar kontainer memiliki beberapa website yang aktif secara bersamaan ada yang memiliki 2 hingga 3 web yang berjalan. Ini akan menyebabkan kegagalan server dan membuat lag ketika menerima permintaan dengan kontainer yang sama dengan port yang berbeda secara massive. Kegagalan terjadi ketika menerima 500 users dengan permintaan berbeda-berbeda dari setiap kontainer. Kegagalan juga terjadi ketika pemasangan ansible dengan menggunakan metode group. Solusi terbaik yaitu setiap container cukup memiliki 1 web service. Untuk container DNS berdiri sendiri agar meringankan beban. Untuk arsitektur jaringan terhubung dengan kontainer satu sama lain yang tidak memiliki tujuan cenderung kurang aman. Dengan memisahkan container yang tidak memiliki pelayanan yang sama dan membuatnya menjadi beberapa group akan menciptakan sebuah privilege bagi user.</p>
